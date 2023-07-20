@@ -24,6 +24,7 @@ public class Main {
             }else{
                 System.out.print("," + n1);
             }
+            // the sequence of the processes in the is like that : first calculates the value of n1 and then sums n1 and n2 to find n3 and then changes the n2 and n1 according to the sequence.
             int n3 = n1 + n2;
             n1 = n2;
             n2 = n3;
